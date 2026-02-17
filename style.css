@@ -39,6 +39,7 @@ body {
     flex-direction: column;
     max-width: 300px;
     min-height: 350px;
+    border: 1px solid var(--gray-950);
     border-radius: 18px;
     box-shadow: 8px 8px ;
     padding: 18px;
@@ -46,7 +47,7 @@ body {
 }
 
 .illustration {
-    border-radius: 8px;
+    border-radius: 10px;
 }
 
 span {
