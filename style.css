@@ -49,30 +49,37 @@ body {
     border-radius: 8px;
 }
 
-.tag {
+span {
+    font-weight: bolder;
     background-color: var(--yellow);
-    font-size: 0.8em;
-    font-weight: 950;
+    font-size: 14px;
     border-radius: 4px;
-    padding: 8px;
+    padding: 6px 12px;
+    max-width: fit-content;
 }
 
-h3 {
+span.author-name {
+    background-color: var(--white);
+}
 
+.date {
+    font-size: 14px;
 }
 
 h2 {
-
+    font-size: 24px;
+    line-height: 150%;
 }
 
-p {
-    
+.text {
+    font-size: 16px;
+    color: var(--gray-500)
 }
 
 .author-info {
+
     display: flex;
     align-items: center;
-    gap: 12px;
 }
 
 .profile-avatar {
