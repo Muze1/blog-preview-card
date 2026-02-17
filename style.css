@@ -32,11 +32,53 @@ body {
     gap: 50px;
 }
 
+
 .container-card {
     background-color: var(--white);
+    display: flex;
+    flex-direction: column;
     max-width: 300px;
     min-height: 350px;
+    border-radius: 18px;
+    box-shadow: 8px 8px ;
+    padding: 18px;
+    gap: 18px
 }
+
+.illustration {
+    border-radius: 8px;
+}
+
+.tag {
+    background-color: var(--yellow);
+    font-size: 0.8em;
+    font-weight: 950;
+    border-radius: 4px;
+    padding: 8px;
+}
+
+h3 {
+
+}
+
+h2 {
+
+}
+
+p {
+    
+}
+
+.author-info {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.profile-avatar {
+    width: 1.8rem;
+}
+
 
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
